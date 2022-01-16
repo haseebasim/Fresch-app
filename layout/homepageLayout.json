@@ -1,0 +1,288 @@
+[
+  {
+    "image1": {
+      "src": "/images/homepage/1/1-1.png",
+      "width": "25.7%",
+      "height": "62.9%",
+      "css": {
+        "left": "23.4%",
+        "top": "1.3%"
+      },
+      "counter": 0
+    },
+    "image2": {
+      "src": "/images/homepage/1/1-2.gif",
+      "width": "29.7%",
+      "height": "34.3%",
+      "css": {
+        "left": "64.2%",
+        "top": "64.1%"
+      },
+      "counter": 0
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/2/2-1.png",
+      "width": "25.7%",
+      "height": "62.9%",
+      "css": {
+        "left": "12.1%",
+        "top": "1.1%"
+      },
+      "counter": 1
+    },
+    "image2": {
+      "src": "/images/homepage/2/2-2.png",
+      "width": "12.4%",
+      "height": "29.9%",
+      "css": {
+        "left": "67.3%",
+        "top": "64.8%"
+      },
+      "counter": 1
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/3/3-1.gif",
+      "width": "40.6%",
+      "height": "50%",
+      "css": {
+        "left": "50%",
+        "top": "2%"
+      },
+      "counter": 2
+    },
+    "image2": {
+      "src": "/images/homepage/3/3-2.png",
+      "width": "17.4%",
+      "height": "44.0%",
+      "css": {
+        "left": "19.04%",
+        "top": "52.4%"
+      },
+      "counter": 2
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/4/4-1.png",
+      "width": "29.5%",
+      "height": "68.7%",
+      "css": {
+        "left": "3.7%",
+        "top": "10.1%"
+      },
+      "counter": 3
+    },
+    "image2": {
+      "src": "/images/homepage/4/4-2.gif",
+      "width": "23.9%",
+      "height": "32.8%",
+      "css": {
+        "left": "61.1%",
+        "top": "64.5%"
+      },
+      "counter": 3
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/5/5-1.png",
+      "width": "34.5%",
+      "height": "44.8%",
+      "css": {
+        "left": "50%",
+        "top": "5.1%"
+      },
+      "counter": 4
+    },
+    "image2": {
+      "src": "/images/homepage/5/5-2.png",
+      "width": "20.11%",
+      "height": "50%",
+      "css": {
+        "left": "9.2%",
+        "top": "36.2%"
+      },
+      "counter": 4
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/6/6-1.gif",
+      "width": "20.4%",
+      "height": "49.4%",
+      "css": {
+        "left": "17.2%",
+        "top": "17.1%"
+      },
+      "counter": 5
+    },
+    "image2": {
+      "src": "/images/homepage/6/6-2.jpeg",
+      "width": "21.1%",
+      "height": "50%",
+      "css": {
+        "left": "72.2%",
+        "top": "49.4%"
+      },
+      "counter": 5
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/7/7-1.png",
+      "width": "15.5%",
+      "height": "46.1%",
+      "css": {
+        "left": "7.3%",
+        "top": "9.7%"
+      },
+      "counter": 6
+    },
+    "image2": {
+      "src": "/images/homepage/7/7-2.png",
+      "width": "26.4%",
+      "height": "64.8%",
+      "css": {
+        "left": "63.5%",
+        "top": "34.7%"
+      },
+      "counter": 6
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/8/8-1.png",
+      "width": "30.7%",
+      "height": "34.5%",
+      "css": {
+        "left": "61.4%",
+        "top": "17.5%"
+      },
+      "counter": 7
+    },
+    "image2": {
+      "src": "/images/homepage/8/8-2.png",
+      "width": "17.2%",
+      "height": "49.2%",
+      "css": {
+        "left": "15.7%",
+        "top": "43.5%"
+      },
+      "counter": 7
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/9/9-1.gif",
+      "width": "30.7%",
+      "height": "31.8%",
+      "css": {
+        "left": "59.7%",
+        "top": "15.4%"
+      },
+      "counter": 8
+    },
+    "image2": {
+      "src": "/images/homepage/9/9-2.gif",
+      "width": "15.6%",
+      "height": "31.2%",
+      "css": {
+        "left": "12.9%",
+        "top": "52.0%"
+      },
+      "counter": 8
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/10/10-1.gif",
+      "width": "30.7%",
+      "height": "34.5%",
+      "css": {
+        "left": "6.1%",
+        "top": "15.4%"
+      },
+      "counter": 9
+    },
+    "image2": {
+      "src": "/images/homepage/10/10-2.gif",
+      "width": "30.7%",
+      "height": "34.5%",
+      "css": {
+        "left": "58.3%",
+        "top": "49.2%"
+      },
+      "counter": 9
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/11/11-1.png",
+      "width": "18.5%",
+      "height": "47.7%",
+      "css": {
+        "left": "21.2%",
+        "top": "18.7%"
+      },
+      "counter": 10
+    },
+    "image2": {
+      "src": "/images/homepage/11/11-2.png",
+      "width": "16.6%",
+      "height": "21.9%",
+      "css": {
+        "left": "65.5%",
+        "top": "66.2%"
+      },
+      "counter": 10
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/12/12-1.gif",
+      "width": "21.8%",
+      "height": "24%",
+      "css": {
+        "left": "14.4%",
+        "top": "16.7%"
+      },
+      "counter": 11
+    },
+    "image2": {
+      "src": "/images/homepage/12/12-2.png",
+      "width": "26.4%",
+      "height": "64.8%",
+      "css": {
+        "left": "64.1%",
+        "top": "30.5%"
+      },
+      "counter": 11
+    }
+  },
+  {
+    "image1": {
+      "src": "/images/homepage/13/13-1.gif",
+      "width": "14.9%",
+      "height": "36.8%",
+      "css": {
+        "left": "9.4%",
+        "top": "14.8%"
+      },
+      "counter": 12
+    },
+    "image2": {
+      "src": "/images/homepage/13/13-2.gif",
+      "width": "14.9%",
+      "height": "36.8%",
+      "css": {
+        "left": "73.8%",
+        "top": "49.4%"
+      },
+      "counter": 12
+    }
+  }
+]
