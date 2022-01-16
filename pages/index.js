@@ -40,7 +40,7 @@ export default function Home({ ImagesArr }) {
               >
                 <Image src={obj.src} layout="fill" alt="project" />
                 <p className="w-[72px] text-[10px] font-normal font-sans z-0 absolute inset-0 hidden select-none img-caption">
-                  haseeb is a boy
+                  Stephen Meise Shooting addidas & Martine Rose July 2021
                 </p>
               </div>
             );
