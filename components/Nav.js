@@ -19,7 +19,7 @@ export default function Nav() {
             router.pathname === "/index" ? "text-[#4A90E2]" : "black"
           }`}
         >
-          <Link href={"/index"}>INDEX</Link>
+          <Link href={"/index-page"}>INDEX</Link>
         </div>
         <div
           className={`${
