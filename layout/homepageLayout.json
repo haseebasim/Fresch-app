@@ -8,7 +8,9 @@
         "left": "23.4%",
         "top": "1.3%"
       },
-      "counter": 0
+      "counter": 0,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+      "project": "styling_park"
     },
     "image2": {
       "src": "/images/homepage/1/1-2.gif",
@@ -18,7 +20,10 @@
         "left": "64.2%",
         "top": "64.1%"
       },
-      "counter": 0
+      "counter": 0,
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+
+      "project": "brooke_xxxtc"
     }
   },
   {
@@ -30,7 +35,9 @@
         "left": "12.1%",
         "top": "1.1%"
       },
-      "counter": 1
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Braylen Dion",
+      "counter": 1,
+      "project": "asante_martinerose"
     },
     "image2": {
       "src": "/images/homepage/2/2-2.png",
@@ -40,7 +47,9 @@
         "left": "67.3%",
         "top": "64.8%"
       },
-      "counter": 1
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Braylen Dion",
+      "counter": 1,
+      "project": "asante_martinerose"
     }
   },
   {
@@ -52,7 +61,9 @@
         "left": "50%",
         "top": "2%"
       },
-      "counter": 2
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+      "counter": 2,
+      "project": "brooke_xxxtc"
     },
     "image2": {
       "src": "/images/homepage/3/3-2.png",
@@ -62,7 +73,9 @@
         "left": "19.04%",
         "top": "52.4%"
       },
-      "counter": 2
+      "counter": 2,
+      "caption": "Teeth magazine\nStyling: Freschta Sahibi\nPhotography: Solvent Ade",
+      "project": "shooting"
     }
   },
   {
@@ -74,7 +87,10 @@
         "left": "3.7%",
         "top": "10.1%"
       },
-      "counter": 3
+      "counter": 3,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+
+      "project": "styling_park"
     },
     "image2": {
       "src": "/images/homepage/4/4-2.gif",
@@ -84,7 +100,9 @@
         "left": "61.1%",
         "top": "64.5%"
       },
-      "counter": 3
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+      "counter": 3,
+      "project": "brooke_xxxtc"
     }
   },
   {
@@ -96,7 +114,10 @@
         "left": "50%",
         "top": "5.1%"
       },
-      "counter": 4
+      "counter": 4,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+
+      "project": "styling_park"
     },
     "image2": {
       "src": "/images/homepage/5/5-2.png",
@@ -106,7 +127,10 @@
         "left": "9.2%",
         "top": "36.2%"
       },
-      "counter": 4
+      "counter": 4,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+
+      "project": "styling_park"
     }
   },
   {
@@ -118,7 +142,9 @@
         "left": "17.2%",
         "top": "17.1%"
       },
-      "counter": 5
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+      "counter": 5,
+      "project": "brooke_xxxtc"
     },
     "image2": {
       "src": "/images/homepage/6/6-2.jpeg",
@@ -128,7 +154,9 @@
         "left": "72.2%",
         "top": "49.4%"
       },
-      "counter": 5
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Braylen Dion",
+      "counter": 5,
+      "project": "asante_martinerose"
     }
   },
   {
@@ -140,7 +168,10 @@
         "left": "7.3%",
         "top": "9.7%"
       },
-      "counter": 6
+      "counter": 6,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+
+      "project": "styling_park"
     },
     "image2": {
       "src": "/images/homepage/7/7-2.png",
@@ -150,29 +181,10 @@
         "left": "63.5%",
         "top": "34.7%"
       },
-      "counter": 6
-    }
-  },
-  {
-    "image1": {
-      "src": "/images/homepage/8/8-1.png",
-      "width": "30.7%",
-      "height": "34.5%",
-      "css": {
-        "left": "61.4%",
-        "top": "17.5%"
-      },
-      "counter": 7
-    },
-    "image2": {
-      "src": "/images/homepage/8/8-2.png",
-      "width": "17.2%",
-      "height": "49.2%",
-      "css": {
-        "left": "15.7%",
-        "top": "43.5%"
-      },
-      "counter": 7
+      "counter": 6,
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+
+      "project": "styling_park"
     }
   },
   {
@@ -184,7 +196,9 @@
         "left": "59.7%",
         "top": "15.4%"
       },
-      "counter": 8
+      "counter": 7,
+      "caption": "Runway360 Cfda\nCreative Direction: De-Yan\nArt Direction & Under interface Design:\nJohn Portis, Neo Zhang & Freschta Sahibi",
+      "project": "cfda"
     },
     "image2": {
       "src": "/images/homepage/9/9-2.gif",
@@ -194,7 +208,9 @@
         "left": "12.9%",
         "top": "52.0%"
       },
-      "counter": 8
+      "counter": 7,
+      "caption": "Creative Direction: De-Yan\nArt Direction: Freschta Sahibi\n3D Design: Luke Parker",
+      "project": "brooke_drip"
     }
   },
   {
@@ -206,7 +222,9 @@
         "left": "6.1%",
         "top": "15.4%"
       },
-      "counter": 9
+      "counter": 8,
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+      "project": "brooke_xxxtc"
     },
     "image2": {
       "src": "/images/homepage/10/10-2.gif",
@@ -216,7 +234,9 @@
         "left": "58.3%",
         "top": "49.2%"
       },
-      "counter": 9
+      "caption": "Brooke Candy feat. Iggy Azalea Cum\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi, Neo Zhang,\nJohn Portis\nMotion Design: Soyun Park & Luke Parker",
+      "counter": 8,
+      "project": "brooke_candy_cum"
     }
   },
   {
@@ -228,7 +248,9 @@
         "left": "21.2%",
         "top": "18.7%"
       },
-      "counter": 10
+      "caption": "Desire\nStyling: Freschta Sahibi\nPhotography: Barrett Sweger",
+      "counter": 9,
+      "project": "desire_styling"
     },
     "image2": {
       "src": "/images/homepage/11/11-2.png",
@@ -238,7 +260,9 @@
         "left": "65.5%",
         "top": "66.2%"
       },
-      "counter": 10
+      "counter": 9,
+      "caption": "CFDA Fashion Awards 2020\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi & John\nSampson\nGraphic & Motion : De-Yan",
+      "project": "cfda"
     }
   },
   {
@@ -250,7 +274,9 @@
         "left": "14.4%",
         "top": "16.7%"
       },
-      "counter": 11
+      "caption": "Alicia Keys Stage Design\nCreative Direction: Yimmy Yayo\nProduction & Art Direction\nDejan Jovanovic, Freschta Sahibi & Luke Parker\nSet Design: Camila Romano, Marlon Davis\nMotion Design: Luke Parker",
+      "counter": 10,
+      "project": "alicia_keys"
     },
     "image2": {
       "src": "/images/homepage/12/12-2.png",
@@ -260,7 +286,9 @@
         "left": "64.1%",
         "top": "30.5%"
       },
-      "counter": 11
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Jeremy Paul Gould",
+      "counter": 10,
+      "project": "shooting"
     }
   },
   {
@@ -272,7 +300,9 @@
         "left": "9.4%",
         "top": "14.8%"
       },
-      "counter": 12
+      "counter": 11,
+      "caption": "Runway360 Cfda\nCreative Direction: De-Yan\nArt Direction & Under interface Design:\nJohn Portis, Neo Zhang & Freschta Sahibi",
+      "project": "cfda"
     },
     "image2": {
       "src": "/images/homepage/13/13-2.gif",
@@ -282,7 +312,9 @@
         "left": "73.8%",
         "top": "49.4%"
       },
-      "counter": 12
+      "counter": 11,
+      "caption": "Runway360 Cfda\nCreative Direction: De-Yan\nArt Direction & Under interface Design:\nJohn Portis, Neo Zhang & Freschta Sahibi",
+      "project": "cfda"
     }
   }
 ]

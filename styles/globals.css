@@ -5,8 +5,12 @@
 html,
 body {
   font-family: "Arial CE MT Black", "Arial Black", "Arial", sans-serif;
+  height: 100%;
 }
 
+#__next {
+  height: 100%;
+}
 
 a {
   color: inherit;
@@ -17,6 +21,13 @@ a {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.prev {
+  cursor: url("../public/icons/Prev.svg"), auto;
+}
+.next {
+  cursor: url("../public/icons/Next.svg"), auto;
 }
 
 .indexImageContainer > span {

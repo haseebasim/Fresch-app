@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import HomeLayout from "../layout/homepageLayout";
 import Image from "next/image";
 import Nav from "../components/Nav";
+import { useRouter } from "next/router";
 
 export default function Home({ ImagesArr }) {
+  const router = useRouter();
   const [Counter, setCounter] = useState(0);
   const [Images, setImages] = useState(ImagesArr);
   useEffect(() => {
@@ -38,9 +40,24 @@ export default function Home({ ImagesArr }) {
                 }}
                 key={index}
               >
-                <Image src={obj.src} layout="fill" alt="project" />
-                <p className="w-[72px] text-[10px] font-normal font-sans z-0 absolute inset-0 hidden select-none img-caption">
-                  Stephen Meise Shooting addidas & Martine Rose July 2021
+                <Image
+                  src={obj.src}
+                  layout="fill"
+                  alt="project"
+                  onClick={() => {
+                    router.push(
+                      {
+                        pathname: `/full-screen/${obj.project}`,
+                        query: {
+                          caption: obj.caption,
+                        },
+                      },
+                      `/full-screen/${obj.project}`
+                    );
+                  }}
+                />
+                <p className="w-max text-[7px] whitespace-pre-wrap font-normal font-sans z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
+                  {obj.caption}
                 </p>
               </div>
             );

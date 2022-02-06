@@ -3,78 +3,92 @@
     {
       "image": "/images/index/col1/image_1.png",
       "height": 260,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+      "project": "styling_park"
     },
     {
       "image": "/images/index/col1/image_2.gif",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Brooke Candy feat. Iggy Azalea Cum\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi, Neo Zhang,\nJohn Portis\nMotion Design: Soyun Park & Luke Parker",
+      "project": "brooke_candy_cum"
     },
     {
       "image": "/images/index/col1/image_3.png",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "CFDA Fashion Awards 2020\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi & John\nSampson\nGraphic & Motion : De-Yan",
+      "project": "cfda"
     },
     {
       "image": "/images/index/col1/image_4.png",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Louis Vuitton - LVX  Exhibit\nCreative Direction: De-Yan",
+      "project": "louis_vuitton"
     }
   ],
   "col2": [
     {
       "image": "/images/index/col2/image_1.gif",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Alicia Keys Stage Design\nCreative Direction: Yimmy Yayo\nProduction & Art Direction\nDejan Jovanovic, Freschta Sahibi & Luke Parker\nSet Design: Camila Romano, Marlon Davis\nMotion Design: Luke Parker",
+      "project": "alicia_keys"
     },
     {
       "image": "/images/index/col2/image_2.png",
       "height": 260,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Braylen Dion",
+      "project": "asante_martinerose"
     },
     {
       "image": "/images/index/col2/image_3.gif",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Fenty Skin Virtual Experience\nCreative Direction: De-Yan\nArt Direction: Camila Romano, Marlon Davis,\nFreschta Sahibi & Jing Ju\nSet Design: Camila Romano,\nMarlon Davis & Jing Ju\nMotion Design: Luke Parker & Sohyun Park",
+      "project": "fenty"
     }
   ],
   "col3": [
     {
       "image": "/images/index/col3/image_1.png",
       "height": 260,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Saks Potts\nStyling: Freschta Sahibi\nPhotography: Karl Pompilus",
+      "project": "shooting"
     },
     {
       "image": "/images/index/col3/image_2.gif",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Runway360 Cfda\nCreative Direction: De-Yan\nArt Direction & Under interface Design:\nJohn Portis, Neo Zhang & Freschta Sahibi",
+      "project": "cfda"
     },
     {
       "image": "/images/index/col3/image_3.png",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Teeth magazine\nStyling: Freschta Sahibi\nPhotography: Solvent Ade",
+      "project": "shooting"
     },
     {
       "image": "/images/index/col3/image_4.png",
       "height": 260,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Jeremy Paul Gould",
+      "project": "shooting"
     }
   ],
   "col4": [
     {
       "image": "/images/index/col4/image_1.jpg",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Desire\nStyling: Freschta Sahibi\nPhotography: Barrett Sweger",
+      "project": "desire_styling"
     },
     {
       "image": "/images/index/col4/image_2.gif",
       "height": 260,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+      "project": "brooke_xxxtc"
     },
     {
       "image": "/images/index/col4/image_3.gif",
       "height": 115,
-      "caption": "Stephen Meise Shooting addidas & Martine Rose July 2021"
+      "caption": "Creative Direction: De-Yan\nArt Direction: Freschta Sahibi\n3D Design: Luke Parker",
+      "project": "brooke_drip"
     }
   ]
 }
