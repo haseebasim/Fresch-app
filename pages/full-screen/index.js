@@ -1,26 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
+import { data } from "autoprefixer";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import Nav from "../../components/Nav";
-import fileNames from "../../layout/projects.json";
+import fileNamesData from "../../layout/projects.json";
 
-const FullScreenPage = () => {
-  const router = useRouter();
-  const [project, setProject] = useState(router.query.project);
-  const [caption, setCaption] = useState(router.query.caption);
-
+const FullScreenPage = ({ project, caption, fileNames }) => {
   console.log(project, fileNames, caption);
   const [counter, setCounter] = useState(0);
   const handleClick = (direction) => {
     switch (direction) {
       case "right":
-        fileNames[project][counter + 1] === undefined
+        fileNames[counter + 1] === undefined
           ? setCounter(0)
           : setCounter(counter + 1);
         break;
       case "left":
-        fileNames[project][counter - 1] === undefined
-          ? setCounter(fileNames[project].length - 1)
+        fileNames[counter - 1] === undefined
+          ? setCounter(fileNames.length - 1)
           : setCounter(counter - 1);
         break;
       default:
@@ -46,7 +43,7 @@ const FullScreenPage = () => {
         <div className="absolute flex z-0 justify-center items-center w-4/5 object-contain max-h-[62.5%] ">
           <img
             className="max-w-[400px] max-h-[500px]"
-            src={`/images/projects/${project}/${fileNames[project][counter]}`}
+            src={`/images/projects/${project}/${fileNames[counter]}`}
             alt="project_images"
             layout="fill"
           />
@@ -56,13 +53,13 @@ const FullScreenPage = () => {
   );
 };
 
-// export async function getServerSideProps(context) {
-//   const projectName = context.query.project;
-//   const caption = context.query.caption;
-//   const fileNames = fs.readdirSync(`./public/images/projects/${projectName}`);
-//   return {
-//     props: { project: projectName, fileNames, caption },
-//   };
-// }
+export async function getServerSideProps(context) {
+  const projectName = context.query.project;
+  const caption = context.query.caption;
+  const fileNames = fileNamesData[projectName];
+  return {
+    props: { project: projectName, fileNames, caption },
+  };
+}
 
 export default FullScreenPage;
