@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import fs from "fs";
 import Nav from "../../components/Nav";
 import { useRouter } from "next/router";
-import Image from "next/image";
 const FullScreenPage = ({ project, fileNames, caption }) => {
   console.log(project, fileNames, caption);
   const router = useRouter();

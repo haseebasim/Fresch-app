@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="http://fonts.cdnfonts.com/css/arial" rel="stylesheet" />
+          <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet" />
         </Head>
         <body>
           <Main />
