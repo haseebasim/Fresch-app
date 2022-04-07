@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Arial CE MT Black", "Arial Black", "Arial", sans-serif;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.prev {
+  cursor: url("../public/icons/Prev.svg"), auto;
+}
+.next {
+  cursor: url("../public/icons/Next.svg"), auto;
+}
+
+.indexImageContainer > span {
+  z-index: 1;
+}
+
+.indexImageContainer > span:hover {
+  opacity: 0 !important;
+}
+
+.indexImageContainer > span:hover + .img-caption {
+  display: block;
+}
+
+/* .indexImage:hover .img-caption { */
+/* display: block !important; */
+/* } */
