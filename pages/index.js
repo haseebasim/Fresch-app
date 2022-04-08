@@ -66,7 +66,7 @@ export default function Home({ ImagesArr }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   return {
     props: { ImagesArr: HomeLayout },
   };
