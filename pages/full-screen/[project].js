@@ -2,11 +2,11 @@
 import { data } from "autoprefixer";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
+import { flushSync } from "react-dom";
 import Nav from "../../components/Nav";
 import fileNamesData from "../../layout/projects.json";
 
 const FullScreenPage = ({ project, caption, fileNames }) => {
-  console.log(project, fileNames, caption);
   const [counter, setCounter] = useState(0);
   const handleClick = (direction) => {
     switch (direction) {
@@ -53,10 +53,24 @@ const FullScreenPage = ({ project, caption, fileNames }) => {
   );
 };
 
-export async function getServerSideProps(context) {
-  const projectName = context.query.project;
-  const caption = context.query.caption;
-  const fileNames = fileNamesData[projectName];
+export async function getStaticPaths() {
+  const paths = Object.keys(fileNamesData).map((key) => {
+    return {
+      params: {
+        project: key,
+      },
+    };
+  });
+  return {
+    paths,
+    fallback: false, // false or 'blocking'
+  };
+}
+
+export async function getStaticProps(context) {
+  const projectName = context.params.project;
+  const caption = fileNamesData[projectName].caption;
+  const fileNames = fileNamesData[projectName].files;
   return {
     props: { project: projectName, fileNames, caption },
   };

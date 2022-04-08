@@ -1,22 +1,51 @@
 {
-  "alicia_keys": ["1.gif", "2.jpg", "3.png"],
-  "styling_park": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
-  "brooke_candy_cum": ["1.gif", "2.gif", "3.png"],
-  "cfda": ["1.gif", "2.gif", "3.jpg", "4.jpg", "5.jpg", "6.gif", "7.png"],
-  "asante_martinerose": ["1.png", "2.jpeg", "3.png", "4.jpeg"],
-  "fenty": ["1.gif", "2.gif"],
-  "shooting": ["1.png", "2.png", "3.png"],
-  "photo_shooting": [
-    "1.png",
-    "2.png",
-    "3.png",
-    "4.png",
-    "5.png",
-    "6.png",
-    "7.png"
-  ],
-  "desire_styling": ["1.png", "2.jpg"],
-  "brooke_xxxtc": ["1.gif", "2.gif", "3.gif", "4.gif", "5.gif"],
-  "brooke_drip": ["1.gif"],
-  "louis_vuitton": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  "alicia_keys": {
+    "caption": "Alicia Keys Stage Design\nCreative Direction: Yimmy Yayo\nProduction & Art Direction\nDejan Jovanovic, Freschta Sahibi & Luke Parker\nSet Design: Camila Romano, Marlon Davis\nMotion Design: Luke Parker",
+    "files": ["1.gif", "2.jpg", "3.png"]
+  },
+  "styling_park": {
+    "caption": "Adidas & Wales Bonner\nPhotography: Jeremy Paul Gould\nStyling: Freschta Sahibi",
+    "files": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+  },
+  "brooke_candy_cum": {
+    "caption": "Brooke Candy feat. Iggy Azalea Cum\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi, Neo Zhang,\nJohn Portis\nMotion Design: Soyun Park & Luke Parker",
+    "files": ["1.gif", "2.gif", "3.png"]
+  },
+
+  "cfda": {
+    "caption": "CFDA Fashion Awards 2020\nCreative Direction: De-Yan\nArt Direction: Freschta Sahibi & John\nSampson\nGraphic & Motion : De-Yan",
+    "files": ["1.gif", "2.gif", "3.jpg", "4.jpg", "5.jpg", "6.gif", "7.png"]
+  },
+  "asante_martinerose": {
+    "caption": "Martine Rose\nStyling: Freschta Sahibi\nPhotography: Braylen Dion",
+    "files": ["1.png", "2.jpeg", "3.png", "4.jpeg"]
+  },
+  "fenty": {
+    "caption": "Fenty Skin Virtual Experience\nCreative Direction: De-Yan\nArt Direction: Camila Romano, Marlon Davis,\nFreschta Sahibi & Jing Ju\nSet Design: Camila Romano,\nMarlon Davis & Jing Ju\nMotion Design: Luke Parker & Sohyun Park",
+    "files": ["1.gif", "2.gif"]
+  },
+  "shooting": {
+    "caption": "Saks Potts\nStyling: Freschta Sahibi\nPhotography: Karl Pompilus",
+    "files": ["1.png", "2.png", "3.png"]
+  },
+  "photo_shooting": {
+    "caption": "Photo shooting\nStyling: Freschta Sahibi\nPhotographer: Julius Frazer",
+    "files": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"]
+  },
+  "desire_styling": {
+    "caption": "Desire\nStyling: Freschta Sahibi\nPhotography: Barrett Sweger",
+    "files": ["1.png", "2.jpg"]
+  },
+  "brooke_xxxtc": {
+    "caption": "Brooke Candy and Charli XCX Song: XXXTC\nDirection Dejan Jovanovic & Luke Abby\nArt Direction: Freschta Sahibi & John Sampson",
+    "files": ["1.gif", "2.gif", "3.gif", "4.gif", "5.gif"]
+  },
+  "brooke_drip": {
+    "caption": "Creative Direction: De-Yan\nArt Direction: Freschta Sahibi\n3D Design: Luke Parker",
+    "files": ["1.gif"]
+  },
+  "louis_vuitton": {
+    "caption": "Louis Vuitton - LVX  Exhibit\nCreative Direction: De-Yan",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  }
 }

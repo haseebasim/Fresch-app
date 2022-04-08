@@ -45,15 +45,13 @@ export default function Home({ ImagesArr }) {
                   layout="fill"
                   alt="project"
                   onClick={() => {
-                    router.push(
-                      {
-                        pathname: `/full-screen`,
-                        query: {
-                          project: obj.project,
-                          caption: obj.caption,
-                        },
+                    router.push({
+                      pathname: `/full-screen/${obj.project}`,
+                      query: {
+                        project: obj.project,
+                        caption: obj.caption,
                       },
-                    );
+                    });
                   }}
                 />
                 <p className="w-max text-[7px] whitespace-pre-wrap font-normal font-sans z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
@@ -65,7 +63,7 @@ export default function Home({ ImagesArr }) {
         })}
       </div>
     </>
-  )
+  );
 }
 
 export async function getServerSideProps(context) {

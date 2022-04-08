@@ -13,17 +13,15 @@ export default function Index() {
       if (answer !== null || answer !== "") {
         answer === correctAnswer &&
           router.push({
-            pathname: `/full-screen`,
+            pathname: `/full-screen/${arrElem.project}`,
             query: { project: arrElem.project, caption: arrElem.caption },
           });
       }
     } else {
-      router.push(
-        {
-          pathname: `/full-screen`,
-          query: { project: arrElem.project, caption: arrElem.caption },
-        },
-      );
+      router.push({
+        pathname: `/full-screen/${arrElem.project}`,
+        query: { project: arrElem.project, caption: arrElem.caption },
+      });
     }
   };
   return (
