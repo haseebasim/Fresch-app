@@ -1,10 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import { data } from "autoprefixer";
-import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
-import { flushSync } from "react-dom";
 import Nav from "../../components/Nav";
+import Image from "next/image";
 import fileNamesData from "../../layout/projects.json";
+import { Container } from "postcss";
 
 const FullScreenPage = ({ project, caption, fileNames }) => {
   const [counter, setCounter] = useState(0);
@@ -41,12 +40,16 @@ const FullScreenPage = ({ project, caption, fileNames }) => {
           onClick={() => handleClick("right")}
         ></div>
         <div className="absolute flex z-0 justify-center items-center w-4/5 object-contain max-h-[62.5%] ">
-          <img
-            className="max-w-[400px] max-h-[500px]"
-            src={`/images/projects/${project}/${fileNames[counter]}`}
-            alt="project_images"
-            layout="fill"
-          />
+          <div className="relative w-full max-w-[400px] max-h-[500px]">
+            <Image
+              src={`/images/projects/${project}/${fileNames[counter]}`}
+              alt="project_images"
+              width={400}
+              height={500}
+              objectFit={'contain'}
+              // layout="intrinsic"
+            />
+          </div>
         </div>
       </div>
     </>
