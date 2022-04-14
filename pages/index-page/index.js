@@ -51,7 +51,7 @@ export default function Index() {
                         height={arrElem.height}
                         alt="project"
                       />
-                      <p className="w-max whitespace-pre-wrap font-normal font-sans text-[7px] leading-[7px] z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
+                      <p className="w-max whitespace-pre-wrap font-normal font-sans text-[10px] leading-[10px] z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
                         {arrElem.caption}
                       </p>
                     </div>

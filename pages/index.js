@@ -54,7 +54,7 @@ export default function Home({ ImagesArr }) {
                     });
                   }}
                 />
-                <p className="w-max text-[7px] whitespace-pre-wrap font-normal font-sans z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
+                <p className="w-max text-[10px] whitespace-pre-wrap font-normal font-sans z-0 absolute top-2.5 left-2.5 hidden select-none img-caption">
                   {obj.caption}
                 </p>
               </div>

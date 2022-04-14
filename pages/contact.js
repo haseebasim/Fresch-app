@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <Nav />
-      <div className="w-full mt-[69px] ml-[22px] text-[7px] leading-[9px]">
+      <div className="w-full mt-[69px] ml-[22px] text-[10px] leading-[12px]">
         <div className="mb-4">
           <p>FRESCHTA SAHIBI</p>
           <p>ART DIRECTION STYLING</p>

@@ -31,7 +31,7 @@ const FullScreenPage = ({ project, caption, fileNames }) => {
           className="w-3/6 z-10 h-full prev"
           onClick={() => handleClick("left")}
         >
-          <p className="w-max whitespace-pre-wrap font-normal font-sans text-[7px] leading-[7px]">
+          <p className="w-max whitespace-pre-wrap font-normal font-sans text-[10px] leading-[10px]">
             {caption}
           </p>
         </div>
